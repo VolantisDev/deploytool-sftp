@@ -1,0 +1,36 @@
+{
+  "name": "deploytool-sftp",
+  "version": "0.1.0",
+  "description": "A deploytool deployment type for uploading modified files via SFTP",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bmcclure/deploytool-sftp"
+  },
+  "author": {
+    "name": "Ben McClure",
+    "email": "ben.mcclure@gmail.com",
+    "url": "http://benmcclure.com"
+  },
+  "files": [
+    "index.js",
+    "lib"
+  ],
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [],
+  "dependencies": {
+    "async": "^2.0.0-rc.6",
+    "deploytool": "^0.1.1",
+    "deploytool-git-diff": "^0.1.1",
+    "deploytool-ssh": "^0.1.1",
+    "ssh2": "latest"
+  },
+  "devDependencies": {
+    "mocha": "^2.5.3"
+  }
+}
